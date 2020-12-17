@@ -1,19 +1,182 @@
 header{
-    background-color: rgb(0, 204, 255);
+    background-color:rgb(3, 3, 77);
     padding: 14px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     
 }
-.nav{
-    display: flex;
-    
-}
-.nav > li > a {
+.header-left{
     color: white;
-    font-size: 25px;
-    margin-right: 50px;
+    font-size: 15px;
+}
+    
+.nav{
+    display: flex; 
+
+}
+
+.nav > li > a {
+    
+    color: white;
+    font-size: 20px;
+    padding-right: 50px;
     text-decoration: none;
     
 }
+.welcome{
+    background-image: url(/img/biru.jpg);
+    background-size:cover ;
+    background-repeat:no-repeat ;
+    height: 100vh;
+    color: white;
+}
+.title{
+    padding-top: 250px;
+    text-align: center;
+    font-size: 80px; 
+    
+}
+.naiyou{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 70px;
+}
+.picture{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+}
+.picture > img{ 
+    width: 200px;
+    height: 150px;
+}
+.koukyou{
+    padding: 5px 55px;
+}
+.picture1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+}
+.picture1 > img{ 
+    width: 200px;
+    height: 150px;
+}
+.jyutaku{
+    padding: 5px 55px;
+}
+.picture2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+}
+.picture2 > img{ 
+    width: 200px;
+    height: 150px;
+}
+.minkan{
+    padding: 5px 40px;
+}
+.picture3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+}
+.picture3 > img{ 
+    width: 200px;
+    height: 150px;
+}
+.kankyo{
+    padding: 5px 40px;
+}
+
+.title1{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+}
+.onebar{   
+    padding: 50px;
+    text-align: center;
+    font-size: 15px;
+}
+.box1{       
+    padding: 14px 50px;
+    text-align: center;
+    font-size: 20px;
+    background-color:rgb(189, 189, 197);
+} 
+.title2{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+}
+
+.address{
+    padding: 30px 50px;
+    display: flex;
+    justify-content: right;
+}
+.box2{       
+    padding: 14px 50px;
+    text-align: center;
+    font-size: 20px;
+    background-color:rgb(189, 189, 197);
+} 
+.tel{
+    padding: 30px 50px;
+    display: flex;
+    justify-content: right;
+}
+.box3{       
+    padding: 14px 50px;
+    text-align: center;
+    font-size: 20px;
+    background-color:rgb(189, 189, 197);
+} 
+.shihonkin{
+    padding: 30px 50px;
+    display: flex;
+    justify-content: right;
+}
+.box4{       
+    padding: 14px 50px;
+    text-align: center;
+    font-size: 20px;
+    background-color:rgb(189, 189, 197);
+} 
+.jigyou li{
+    padding: 30px 50px 20px 50px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+}
+.box5{       
+    padding: 14px 50px;
+    text-align: center;
+    font-size: 20px;
+    background-color:rgb(189, 189, 197);
+} 
+.enkaku{
+    padding: 30px 50px;
+    display: flex;
+    justify-content: right;
+}
+footer{
+    background-color: rgb(3, 3, 77);
+    padding: 14px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}    
